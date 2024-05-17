@@ -1,0 +1,48 @@
+.container {
+  cursor: pointer;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+}
+.container h3 {
+  margin-left: 1px;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.iconWrapper {
+  position: relative;
+}
+
+.totalQuantity {
+  background-color: #0dcaf0;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid;
+  position: absolute;
+  top: -13px;
+  right: -5px;
+  font-size: 12px;
+}
+.pumpAnimate {
+  animation: pumping 300ms ease-out;
+}
+
+@keyframes pumping {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

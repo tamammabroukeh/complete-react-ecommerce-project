@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.container span {
+  font-size: 17px;
+  display: block;
+  font-weight: bold;
+}
